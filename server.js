@@ -3,7 +3,7 @@ var app = express();
 
 // Our first route.
 app.get('/', function (req, res) {
-   res.send('Hello Dev!');
+   res.send('Hello Node + Github! This code push has auto-deployed?');
 });
 
 // Our second route.
