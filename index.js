@@ -12,6 +12,11 @@ app.get('/dev', function (req, res) {
   res.send('Hello Dev');
 });
 
+// Our third route
+app.get('/route3', function (req, res) {
+  res.send('Third route');
+});
+
 // Listen to port
 app.listen(app.get('port'), function () {
   console.log('App is listening on port ' + app.get('port'));
